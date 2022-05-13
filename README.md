@@ -38,6 +38,9 @@ Incidents/Threats
 
 -   [Log4j described in Wired](https://www.wired.com/story/log4j-flaw-hacking-internet/)
 
+-   [Risk Explorer for Software Supply Chains](https://sap.github.io/risk-explorer-for-software-supply-chains/#/) (SAP): [attack tree](https://en.wikipedia.org/wiki/Attack_tree) for supply chain attacks
+    - Has an excellent "References" page that might be a good supplement to this document, especially for incidents/threats
+
 Solutions
 =========
 
@@ -122,6 +125,3 @@ Reports and summaries
 
 -   [The Secure Software Factory](https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Ad35dcd5d-b284-381a-a948-0478460c7e4c#pageNum=6) (CNCF)
     -   [Software Supply Chain Security Best Practices](https://project.linuxfoundation.org/hubfs/CNCF_SSCP_v1.pdf) (CNCF): its predecessor
-
--   [Risk Explorer for Software Supply Chains](https://sap.github.io/risk-explorer-for-software-supply-chains/#/) (SAP): [attack tree](https://en.wikipedia.org/wiki/Attack_tree) for supply chain attacks
-    - Has an excellent "References" page that might be a good supplement to this document
