@@ -92,6 +92,11 @@ Organizations
     -   Parent of TUF and in-toto (see above)
     -   [Technical Advisory Group on Security](https://github.com/cncf/tag-security) (TAG security)
 
+-   [Continuous Delivery Foundation](https://cd.foundation/) (CDF)
+    -   Parent of Tekton (see above)
+    -   [Special Interest Group Software Supply Chain](https://github.com/cdfoundation/sig-software-supply-chain) (SIG Software Supply Chain)
+    -   [Special Interest Group Best Practices](https://github.com/cdfoundation/sig-best-practices) (SIG Best Practices)
+
 Background
 ==========
 
