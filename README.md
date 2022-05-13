@@ -74,6 +74,8 @@ Solutions
 
 -   [Tekton Chains](https://tekton.dev/docs/chains/): artifact signatures and attestations for Tekton CI pipelines
 
+-   [Secure Software Factory Prototype Implementation](https://buildsec.github.io/ssf/): a prototype implementation of the CNCF's [Secure Software Factory](https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Ad35dcd5d-b284-381a-a948-0478460c7e4c#pageNum=6)
+
 Organizations
 =============
 
