@@ -88,6 +88,10 @@ Organizations
         -   Vulnerability Disclosures
         -   Securing Software Repositories
 
+-   [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF)
+    -   Parent of TUF and in-toto (see above)
+    -   [Technical Advisory Group on Security](https://github.com/cncf/tag-security) (TAG security)
+
 Background
 ==========
 
@@ -110,3 +114,4 @@ Reports and summaries
 -   [State of the Software Supply Chain](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf?hsLang=en-us) (Sonatype)
 
 -   [The Secure Software Factory](https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3Ad35dcd5d-b284-381a-a948-0478460c7e4c#pageNum=6) (CNCF)
+    -   [Software Supply Chain Security Best Practices](https://project.linuxfoundation.org/hubfs/CNCF_SSCP_v1.pdf) (CNCF): its predecessor
