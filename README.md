@@ -125,3 +125,5 @@ Reports and summaries
 
 -   [The Secure Software Factory](https://github.com/cncf/tag-security/blob/main/supply-chain-security/secure-software-factory/Secure_Software_Factory_Whitepaper.pdf) (CNCF)
     -   [Software Supply Chain Security Best Practices](https://project.linuxfoundation.org/hubfs/CNCF_SSCP_v1.pdf) (CNCF): its predecessor
+
+-   [2022 Security Trends: Software Supply Chain Survey](https://anchore.com/blog/2022-security-trends-software-supply-chain-survey/) (Anchore)
