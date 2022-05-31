@@ -6,10 +6,15 @@ A reading list for software supply-chain security.
 Policy
 ======
 
--   [NIST 800-218](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf): The Secure Software Development Framework
-    -   [I Read NIST 800-218 So You Don't Have To](https://blog.chainguard.dev/i-read-nist-800-218-so-you-dont-have-to-heres-what-to-watch-out-for/) (Chainguard)
+-   NIST Publications
+    - [NIST 800-218](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf): The Secure Software Development Framework
+      (cf. [I Read NIST 800-218 So You Don't Have To](https://blog.chainguard.dev/i-read-nist-800-218-so-you-dont-have-to-heres-what-to-watch-out-for/) (Chainguard))
+    - [NIST 800-161r1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1.pdf): Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations
 
 -   [Executive Order 14028](https://www.nist.gov/itl/executive-order-improving-nations-cybersecurity) (The White House)
+    - [Related NIST Guidance](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-supply-chain-security-guidance), especially 
+    on [SBOMs](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-software-1) and [vulnerability management](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-0).
+
 
 -   [Dependency Issues: Solving the World's Open-Source Software Security Problem](https://warontherocks.com/2022/05/dependency-issues-solving-the-worlds-open-source-software-security-problem/) (War on the Rocks)
 
