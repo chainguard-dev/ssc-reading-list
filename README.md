@@ -64,6 +64,16 @@ Solutions
 -   [Sigstore](https://www.sigstore.dev/): allows signing artifacts with [OIDC identities](https://openid.net/connect/) (e.g., "Log in with Facebook")
     -   [Supply Chain Integrity, Transparency, and Trust](https://datatracker.ietf.org/doc/html/draft-birkholz-scitt-architecture-00.html): proposed IETF standard (uses some similar tech to Sigstore)
 
+
+-   Transparency for software artifacts (see "transparency logs" below and "Sigstore" above)
+    - [Software Distribution Transparency and Auditability](https://arxiv.org/abs/1711.07278)
+    - [Contour: A Practical System for Binary Transparency](https://arxiv.org/abs/1712.08427)
+    - [Reproducible Builds: Break a log, good things come in trees](https://bora.uib.no/bora-xmlui/handle/1956/20411)
+    - [pacman-bintrans](https://github.com/kpcyrd/pacman-bintrans): binary transparency for the Arch Linux Pacman package manager
+    - [Androind Binary Transparency](https://developers.google.com/android/binary_transparency)
+    - [Mozilla Binary Transparency](https://wiki.mozilla.org/Security/Binary_Transparency)
+
+
 -   [Software Bill of Materials (SBOM)](https://www.cisa.gov/sbom) (CISA): a list of ingredients that make up software components
     -   [CycloneDX](https://cyclonedx.org/): an SBOM specification
     -   [SPDX](https://spdx.dev/): an SBOM specification
