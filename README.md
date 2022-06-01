@@ -39,12 +39,14 @@ Incidents/Threats
 
 -   [Towards Measuring Supply Chain Attacks on Package Managers for Interpreted Languages](https://arxiv.org/abs/2002.01139)
 
--   [Dependency Confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) - So-so writing but a brilliant (and copycatted) attack vector
+-   [Dependency Confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) - Brilliant (and copycatted) attack vector
 
 -   [Log4j described in Wired](https://www.wired.com/story/log4j-flaw-hacking-internet/)
 
 -   [Risk Explorer for Software Supply Chains](https://sap.github.io/risk-explorer-for-software-supply-chains/#/) (SAP): [attack tree](https://en.wikipedia.org/wiki/Attack_tree) for supply chain attacks
     - Has an excellent "References" page that might be a good supplement to this document, especially for incidents/threats
+
+-   [Vulnerability in PHP's PEAR](https://blog.sonarsource.com/php-supply-chain-attack-on-pear/) (Sonar Source)
 
 Solutions
 =========
