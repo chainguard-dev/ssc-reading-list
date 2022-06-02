@@ -46,7 +46,7 @@ Incidents/Threats
 -   [Risk Explorer for Software Supply Chains](https://sap.github.io/risk-explorer-for-software-supply-chains/#/) (SAP): [attack tree](https://en.wikipedia.org/wiki/Attack_tree) for supply chain attacks
     - Has an excellent "References" page that might be a good supplement to this document, especially for incidents/threats
 
--   [Vulnerability in PHP's PEAR](https://blog.sonarsource.com/php-supply-chain-attack-on-pear/) (Sonar Source)
+-   Vulnerabilities in the backend services of PHP's [PEAR](https://blog.sonarsource.com/php-supply-chain-attack-on-pear/) and [Composer](https://blog.sonarsource.com/php-supply-chain-attack-on-composer/) (SonarSource)
 
 Solutions
 =========
