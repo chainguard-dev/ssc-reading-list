@@ -46,7 +46,9 @@ Incidents/Threats
 -   [Risk Explorer for Software Supply Chains](https://sap.github.io/risk-explorer-for-software-supply-chains/#/) (SAP): [attack tree](https://en.wikipedia.org/wiki/Attack_tree) for supply chain attacks
     - Has an excellent "References" page that might be a good supplement to this document, especially for incidents/threats
 
--   [Vulnerability in PHP's PEAR](https://blog.sonarsource.com/php-supply-chain-attack-on-pear/) (Sonar Source)
+- Vulnerabilities in package managers backend services
+  - PHP's [PEAR](https://blog.sonarsource.com/php-supply-chain-attack-on-pear/) and [Composer](https://blog.sonarsource.com/php-supply-chain-attack-on-composer/) (SonarSource)  
+  -  [CocoaPods](https://justi.cz/security/2021/04/20/cocoapods-rce.html), [unpkg](https://justi.cz/security/2018/05/23/cdn-tar-oops.html), [Packagist](https://justi.cz/security/2018/08/28/packagist-org-rce.html) and [RubyGems](https://justi.cz/security/2017/10/07/rubygems-org-rce.html) (Max Justicz)
 
 Solutions
 =========
