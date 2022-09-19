@@ -11,10 +11,11 @@ Policy
       (cf. [I Read NIST 800-218 So You Don't Have To](https://blog.chainguard.dev/i-read-nist-800-218-so-you-dont-have-to-heres-what-to-watch-out-for/) (Chainguard))
     - [NIST 800-161r1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1.pdf): Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations
 
--   [Executive Order 14028](https://www.nist.gov/itl/executive-order-improving-nations-cybersecurity) (The White House)
-    - [Related NIST Guidance](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-supply-chain-security-guidance), especially 
-    on [SBOMs](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-software-1) and [vulnerability management](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-0).
+-   [Executive Order 14028](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity) (The White House, May 2021)
+    - [Related NIST Guidance](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-supply-chain-security-guidance), especially on [SBOMs](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-software-1) and [vulnerability management](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-0)
+    - [OMB Memo](https://www.whitehouse.gov/wp-content/uploads/2022/09/M-22-18.pdf ) (September 2022)
 
+- [Securing the Software Supply Chain for Developers](https://media.defense.gov/2022/Sep/01/2003068942/-1/-1/0/ESF_SECURING_THE_SOFTWARE_SUPPLY_CHAIN_DEVELOPERS.PDF) (NSA, CISA, ODNI, August 2022) (and [our top 5 takeaways](https://blog.chainguard.dev/top-5-takeaways-on-the-nsa-cisa-odni-developer-guidelines-for-securing-the-software-supply-chain/))
 
 -   [Dependency Issues: Solving the World's Open-Source Software Security Problem](https://warontherocks.com/2022/05/dependency-issues-solving-the-worlds-open-source-software-security-problem/) (War on the Rocks)
 
@@ -25,30 +26,31 @@ Policy
 Incidents/Threats
 =================
 
--   [kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm.html) (NPM blog)
+-   Incidents
+    -   [kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm.html) (NPM blog, 2016)
+    -   [Compromise of MiMI (chat app) update server](https://www.trendmicro.com/en_us/research/22/h/irontiger-compromises-chat-app-Mimi-targets-windows-mac-linux-users.html) (Trendmicro, 2022)
+    -   [log4shell vulnerability (in log4j)](https://www.wired.com/story/log4j-flaw-hacking-internet/) (Wired, 2021)
+    - Vulnerabilities in package repositories
+	- PHP's [PEAR](https://blog.sonarsource.com/php-supply-chain-attack-on-pear/) and [Composer](https://blog.sonarsource.com/php-supply-chain-attack-on-composer/) (SonarSource)  
+	- [CocoaPods](https://justi.cz/security/2021/04/20/cocoapods-rce.html), [unpkg](https://justi.cz/security/2018/05/23/cdn-tar-oops.html), [Packagist](https://justi.cz/security/2018/08/28/packagist-org-rce.html) and [RubyGems](https://justi.cz/security/2017/10/07/rubygems-org-rce.html) (Max Justicz, 2017–2021)
+        - [Phishing PyPI users](https://www.darkreading.com/cloud/phishing-campaign-targets-pypi-users-to-distribute-malicious-code) (Dark Reading, August 2022)
 
--   [Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks](https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2) (DIMVA20)
+-   Empirical measurement
+    -   [Towards Using Source Code Repositories to Identify Software Supply Chain Attacks](https://dl.acm.org/doi/abs/10.1145/3372297.3420015?casa_token=YSsIGn2lAgUAAAAA:JKARdg_D0tPS1PerolfMMlhosOx-kbOMpcTqu6tn57rV9BGHbsacw03ORONpRclJ6yhkasajuYl2) (SIGSAC20): identifying published software packages with different code from published source
+    -   [Towards Measuring Supply Chain Attacks on Package Managers for Interpreted Languages](https://arxiv.org/abs/2002.01139)
 
--   [Towards Using Source Code Repositories to Identify Software Supply Chain Attacks](https://dl.acm.org/doi/abs/10.1145/3372297.3420015?casa_token=YSsIGn2lAgUAAAAA:JKARdg_D0tPS1PerolfMMlhosOx-kbOMpcTqu6tn57rV9BGHbsacw03ORONpRclJ6yhkasajuYl2) (SIGSAC20): identifying published software packages with different code from published source
-
--   [Software Supply Chain Compromises - A Living Dataset](https://github.com/IQTLabs/software-supply-chain-compromises)
-    -   [Related paper](https://www.usenix.org/system/files/login/articles/login_winter20_17_geer.pdf)
+-   Datasets
+    -   [Software Supply Chain Compromises - A Living Dataset](https://github.com/IQTLabs/software-supply-chain-compromises) and [Related paper](https://www.usenix.org/system/files/login/articles/login_winter20_17_geer.pdf)
     -   [CNCF Dataset of incidents](https://github.com/cncf/tag-security/tree/main/supply-chain-security/compromises)
+    -   [Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks](https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2) (DIMVA20)
 
--   [Thesis on typosquatting that made headlines](https://incolumitas.com/data/thesis.pdf). This dude pwn'ed (or could have!) thousands of machines.
-
--   [Towards Measuring Supply Chain Attacks on Package Managers for Interpreted Languages](https://arxiv.org/abs/2002.01139)
-
--   [Dependency Confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) - Brilliant (and copycatted) attack vector
-
--   [Log4j described in Wired](https://www.wired.com/story/log4j-flaw-hacking-internet/)
+-   Vectors
+    -   [Thesis on typosquatting that made headlines](https://incolumitas.com/data/thesis.pdf)
+    -   [Dependency Confusion](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
 
 -   [Risk Explorer for Software Supply Chains](https://sap.github.io/risk-explorer-for-software-supply-chains/#/) (SAP): [attack tree](https://en.wikipedia.org/wiki/Attack_tree) for supply chain attacks
     - Has an excellent "References" page that might be a good supplement to this document, especially for incidents/threats
 
-- Vulnerabilities in package managers backend services
-  - PHP's [PEAR](https://blog.sonarsource.com/php-supply-chain-attack-on-pear/) and [Composer](https://blog.sonarsource.com/php-supply-chain-attack-on-composer/) (SonarSource)  
-  -  [CocoaPods](https://justi.cz/security/2021/04/20/cocoapods-rce.html), [unpkg](https://justi.cz/security/2018/05/23/cdn-tar-oops.html), [Packagist](https://justi.cz/security/2018/08/28/packagist-org-rce.html) and [RubyGems](https://justi.cz/security/2017/10/07/rubygems-org-rce.html) (Max Justicz)
 
 Solutions
 =========
@@ -89,6 +91,7 @@ Solutions
     -   [All About That Base Image](https://uploads-ssl.webflow.com/6228fdbc6c97145dad2a9c2b/624e2337f70386ed568d7e7e_chainguard-all-about-that-base-image.pdf): run vulnerability scanner over common container "base images"
 
 -   Static analysis
+    -   [`govulncheck`](https://go.dev/blog/vuln)
     -   [Supporting the Detection of Software Supply Chain Attacks through Unsupervised Signature Generation](https://arxiv.org/abs/2011.02235) (arXiv)
 
 -   [Secure Production Identity Framework for Everyone (SPIFFE)](https://spiffe.io/): PKI for your organization
