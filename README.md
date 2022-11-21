@@ -2,6 +2,12 @@
 
 A reading list for software supply-chain security.
 
+You should check out these other great lists; they all have lots of overlap with this one but slightly different focuses (this list tends a little more academic):
+
+-   [chughes757/SecureSoftwareSupplyChain](https://github.com/chughes757/SecureSoftwareSupplyChain): conferences, reports, whitepapers
+-   [bureado/awesome-software-supply-chain-security](https://github.com/bureado/awesome-software-supply-chain-security): lots of fun things (tools, proofs-of-concept); very exhaustive
+-   [meta-fun/awesome-software-supply-chain-security](https://github.com/meta-fun/awesome-software-supply-chain-security): more systematic
+
 
 Policy
 ======
@@ -67,17 +73,21 @@ Solutions
     -   [Diplomat: Using Delegations to Protect Community Repositories](https://theupdateframework.io/papers/protect-community-repositories-nsdi2016.pdf?raw=true) (NSDI16): let authors of packages sign the packages, rather than having the repo do it for them
     -   [Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories](https://theupdateframework.io/papers/prevention-rollback-attacks-atc2017.pdf?raw=true) (ATC17): some tricks for saving bandwidth
 
--   [Sigstore](https://www.sigstore.dev/): allows signing artifacts with [OIDC identities](https://openid.net/connect/) (e.g., "Log in with Facebook")
-    -   [Supply Chain Integrity, Transparency, and Trust](https://datatracker.ietf.org/doc/html/draft-birkholz-scitt-architecture-00.html): proposed IETF standard (uses some similar tech to Sigstore)
 
-
--   Transparency for software artifacts (see "transparency logs" below and "Sigstore" above)
+-   Transparency for software artifacts (see "transparency logs" below)
     - [Software Distribution Transparency and Auditability](https://arxiv.org/abs/1711.07278)
     - [Contour: A Practical System for Binary Transparency](https://arxiv.org/abs/1712.08427)
     - [Reproducible Builds: Break a log, good things come in trees](https://bora.uib.no/bora-xmlui/handle/1956/20411)
     - [pacman-bintrans](https://github.com/kpcyrd/pacman-bintrans): binary transparency for the Arch Linux Pacman package manager
     - [Androind Binary Transparency](https://developers.google.com/android/binary_transparency)
     - [Mozilla Binary Transparency](https://wiki.mozilla.org/Security/Binary_Transparency)
+
+
+-   Schemes built on top of binary transparency systems
+    -   [Sigstore](https://www.sigstore.dev/): allows signing artifacts with [OIDC identities](https://openid.net/connect/) (e.g., "Log in with Facebook")
+        -   [Sigstore: Software Signing for Everyone](https://dl.acm.org/doi/10.1145/3548606.3560596): academic paper about Sigstore
+    -   [Supply Chain Integrity, Transparency, and Trust](https://datatracker.ietf.org/doc/html/draft-birkholz-scitt-architecture-00.html): proposed IETF standard (uses some similar tech to Sigstore)
+    -   [Gossamer](https://gossamer.tools/): Verifiable supply-chain security for open source software.
 
 
 -   [Software Bill of Materials (SBOM)](https://www.cisa.gov/sbom) (CISA): a list of ingredients that make up software components
@@ -143,8 +153,6 @@ Background
 Reports and summaries
 =====================
 
--   [Another reading list](https://github.com/chughes757/SecureSoftwareSupplyChain): lots of overlap with this one
-
 -   [Top Five Challenges in Software Supply Chain Security: Observations From 30 Industry and Government Organizations](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9740718&casa_token=uvuXkVAeGd0AAAAA:1qRdbyDo4wpb12N6Xu0Oxo92Wj9Quuy1eLIypdOqdGiasnbVHvX4eq7rBE7SA90Ib_br-5y6&tag=1) (IEEE S&P22)
 
 -   [State of the Software Supply Chain](https://www.sonatype.com/hubfs/Q3%202021-State%20of%20the%20Software%20Supply%20Chain-Report/SSSC-Report-2021_0913_PM_2.pdf?hsLang=en-us) (Sonatype)
@@ -153,3 +161,5 @@ Reports and summaries
     -   [Software Supply Chain Security Best Practices](https://project.linuxfoundation.org/hubfs/CNCF_SSCP_v1.pdf) (CNCF): its predecessor
 
 -   [2022 Security Trends: Software Supply Chain Survey](https://anchore.com/blog/2022-security-trends-software-supply-chain-survey/) (Anchore)
+
+-   [ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses](https://scored.dev/program/) (SCORED '22)
